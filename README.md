@@ -1,6 +1,6 @@
-# Enes Özer — Portfolio
+# Tarık Buğra Özcan — Portfolio
 
-Senior Full Stack Engineer portfolyo sitesi. React (Vite), Tailwind CSS, Framer Motion ile geliştirilmiş; GitHub Pages için uyumlu.
+Full Stack Developer (Python, Node.js, React) portfolyo sitesi. React (Vite), Tailwind CSS, Framer Motion ile geliştirilmiş; GitHub Pages için uyumlu.
 
 ## Tasarım Dili ve Renk Paleti
 
@@ -26,7 +26,7 @@ Tarayıcıda `http://localhost:5173` açılır.
 npm run build
 ```
 
-Çıktı `dist/` klasöründe. GitHub Pages için base path otomatik ayarlanır (repo adı: `Portfolio` → base: `/Portfolio/`).
+Çıktı `dist/` klasöründe. GitHub Pages için base path otomatik ayarlanır (repo adı: `MyPortfolio` → base: `/MyPortfolio/`).
 
 ## GitHub Pages’e Yükleme
 
@@ -65,7 +65,7 @@ Repo adı farklıysa `vite.config.js` içinde `repoName` değişkenini güncelle
 ### Base path’i değiştirmek
 
 - **Vite:** `vite.config.js` → `repoName` veya build sırasında `GITHUB_REPOSITORY` ortam değişkeni.
-- Repo adı `Portfolio` değilse (örn. `my-cv`), `repoName`’i `'my-cv'` yapın; base `/my-cv/` olur.
+- Repo adı `MyPortfolio` değilse (örn. `my-cv`), `repoName`'i `'my-cv'` yapın; base `/my-cv/` olur.
 
 ## Veri Güncelleme
 

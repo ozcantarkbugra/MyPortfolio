@@ -54,7 +54,7 @@ export function About({ t, data }) {
         <ul className="space-y-1 text-sm text-neutral-600 dark:text-neutral-400">
           {data.education.map((edu, i) => (
             <li key={`edu-${i}-${edu.school}`}>
-              {edu.degree} · {edu.school}
+              {edu.degree} · {edu.school}{edu.period ? ` · ${edu.period}` : ''}
             </li>
           ))}
         </ul>

@@ -6,13 +6,14 @@
 export const data = {
   // ——— Hero & Kişisel ———
   person: {
-    name: 'Enes Özer',
-    title: 'Senior Full Stack Engineer',
-    valueProposition: 'Enterprise SaaS\'ı uçtan uca tasarlayan, mikroservis ve mikrofrontend mimarilerinde uzman; performans ve güvenilirlik odaklı çözümler üreten mühendis.',
-    email: 'enesozer@yahoo.com',
-    phone: '+90 554 654 42 30',
-    linkedin: 'https://www.linkedin.com/in/enes-%C3%B6zer-b818021b0/',
-    github: 'https://github.com/enesozer',
+    name: 'Tarık Buğra Özcan',
+    title: 'Full Stack Developer (Python, Node.js, React)',
+    location: 'Istanbul, Türkiye',
+    valueProposition: 'AI destekli hukuk teknolojisi platformları geliştiren, web scraping ve büyük ölçekli veri işleme pipeline\'larında uzman; Elasticsearch tabanlı arama sistemleri ve ölçeklenebilir, sürdürülebilir sistemler tasarlayan Full Stack Developer.',
+    email: 'ozcantarkbugra@gmail.com',
+    phone: '+90 545 550 50 02',
+    linkedin: 'https://linkedin.com/in/ozcantarkbugra',
+    github: 'https://github.com/ozcantarkbugra',
     cta: {
       primary: 'Projeleri İncele',
       secondary: 'İletişime Geç',
@@ -21,168 +22,160 @@ export const data = {
 
   // ——— Profesyonel Özet ———
   summary:
-    '5+ yıl deneyimle kurumsal SaaS platformlarını tasarlayan, geliştiren ve ölçeklendiren Senior Full Stack Engineer. Mikroservis ve mikrofrontend mimarilerinde derin uzmanlık; performans, güvenlik ve sistem güvenilirliğine odaklanıyorum. Karmaşık sistemleri uçtan uca sahiplenip iş hedefleriyle uyumlu çözümler sunuyorum.',
+    'AI destekli hukuk teknolojisi platformları geliştiren 2+ yıl deneyime sahip Full Stack Developer. Python ve Node.js ile backend geliştirmede güçlü bir geçmişe sahip, React.js ile frontend deneyimi birleştiriyorum. Web scraping, büyük ölçekli veri işleme pipeline\'ları ve Elasticsearch ile güçlendirilmiş arama sistemlerinde uzmanlaştım. 1 yıldan fazla süredir açık kaynak platformlardan veri toplama, ham veri setlerini dönüştürme ve normalleştirme, yapılandırılmış verileri PostgreSQL, MongoDB ve Elasticsearch\'te saklama deneyimim var. Ölçeklenebilir, sürdürülebilir sistemler tasarlama ve işbirlikçi ekip ortamlarında production-grade uygulamalara katkıda bulunma konusunda deneyimliyim.',
 
   // ——— Core Skills showcase: tier + detail (açılan panelde gösterilir) ———
   coreSkillsShowcase: [
     {
-      name: 'JavaScript',
+      name: 'Python',
       tier: 'primary',
       detail: {
-        what: ['JavaScript ile uçtan uca geliştirme', 'JavaScript ile component kütüphaneleri', 'JavaScript ile performans iyileştirmeleri'],
-        experience: 'Tüm kurumsal projelerde JavaScript ile uçtan uca geliştirme; component kütüphaneleri ve performans iyileştirmeleri.',
+        what: ['Backend servis geliştirme ve bakımı', 'Web scraping ve veri işleme pipeline\'ları', 'Büyük ölçekli veri setlerini işleme ve normalleştirme'],
+        experience: 'NEW MIND\'da 2+ yıl AI destekli hukuk teknolojisi platformları için Python ile backend servisler geliştirdim. Scrapy, BeautifulSoup, Selenium ile web scraping pipeline\'ları tasarladım ve büyük ölçekli veri işleme sistemleri kurduk.',
       },
     },
     {
       name: 'React',
       tier: 'primary',
       detail: {
-        what: ['Kurumsal SaaS arayüzleri, mikrofrontend modülleri', 'LLM entegrasyonlu özellikler, state yönetimi (Redux/Zustand)', 'Web Vitals ve erişilebilirlik odaklı geliştirme'],
-        experience: 'INAVITAS ve NEW MIND\'da 5+ yıl kurumsal SaaS projelerinde React ile uçtan uca geliştirme; component kütüphaneleri ve performans iyileştirmeleri.',
-      },
-    },
-    {
-      name: 'TypeScript',
-      tier: 'secondary',
-      detail: {
-        what: ['Tip güvenli API ve state modelleri', 'Mikrofrontend ve monorepo yapıları', 'Backend ve frontend kod paylaşımı'],
-        experience: 'Tüm kurumsal projelerde TypeScript zorunlu; strict mode, utility types ve DDD uyumlu modeller.',
-      },
-    },
-    {
-      name: 'React Native',
-      tier: 'secondary',
-      detail: {
-        what: ['React Native ile mobil uygulamalar', 'React Native ile component kütüphaneleri', 'React Native ile performans iyileştirmeleri'],
-        experience: 'Tüm kurumsal projelerde React Native ile mobil uygulamalar; component kütüphaneleri ve performans iyileştirmeleri.',
-      },
-    },
-    {
-      name: 'Next.js',
-      tier: 'secondary',
-      detail: {
-        what: ['SSR/ISR ile SEO ve performans', 'API routes ve full-stack sayfalar', 'Kurumsal ürünlerde sayfa mimarisi'],
-        experience: 'Enterprise SaaS ürünlerinde Next.js ile SSR ve ISR kullanımı; NEW MIND ve INAVITAS projeleri.',
+        what: ['AI destekli hukuk teknolojisi platformları için frontend geliştirme', 'RESTful API entegrasyonları', 'Kullanıcı arayüzü ve etkileşim tasarımı'],
+        experience: 'NEW MIND\'da React.js ile frontend geliştirme deneyimi. Backend servislerle entegre edilmiş, production-grade uygulamalara katkıda bulundum.',
       },
     },
     {
       name: 'Node.js',
       tier: 'secondary',
       detail: {
-        what: ['REST/GraphQL API\'ler, mikroservisler', 'LLM servis entegrasyonu', 'Redis, PostgreSQL ile backend optimizasyonu'],
-        experience: 'NestJS ve Express ile 3+ yıl; API gecikmesinde %40\'a varan iyileştirme, Redis ve DB tuning.',
+        what: ['NestJS ve Express ile backend servis geliştirme', 'RESTful API tasarımı ve dokümantasyonu', 'JWT ve Authentication sistemleri'],
+        experience: 'NEW MIND\'da Node.js (NestJS, Express) ile backend servisler geliştirdim. RESTful API\'ler tasarladım ve React.js tabanlı frontend uygulamalarla entegre ettim.',
+      },
+    },
+    {
+      name: 'Elasticsearch',
+      tier: 'secondary',
+      detail: {
+        what: ['Full-text search ve filtreleme özellikleri', 'Hukuki belgeler için indeksleme sistemleri', 'Hızlı ve ölçeklenebilir arama çözümleri'],
+        experience: 'NEW MIND\'da Elasticsearch tabanlı full-text search, filtreleme ve indeksleme özellikleri geliştirdim. Hukuki belgeler için hızlı ve ölçeklenebilir arama sistemleri kurduk.',
+      },
+    },
+    {
+      name: 'Web Scraping',
+      tier: 'secondary',
+      detail: {
+        what: ['Scrapy, BeautifulSoup, Selenium ile otomatik veri toplama', 'Açık kaynak platformlardan veri çıkarma', 'Özelleştirilmiş scraping script\'leri'],
+        experience: '1+ yıl deneyimle açık kaynak platformlardan hukuki belgeler topladım. Scrapy, BeautifulSoup, Selenium ve özel script\'ler kullanarak otomatik web scraping ve veri çıkarma pipeline\'ları tasarladım.',
+      },
+    },
+    {
+      name: 'PostgreSQL',
+      tier: 'secondary',
+      detail: {
+        what: ['Veritabanı yönetimi ve optimizasyonu', 'Veri modelleme ve indeksleme', 'Performans tuning ve sorgu optimizasyonu'],
+        experience: 'NEW MIND\'da PostgreSQL veritabanlarını yönettim ve optimize ettim. Veri modelleme, indeksleme ve performans tuning konularında deneyim kazandım.',
+      },
+    },
+    {
+      name: 'MongoDB',
+      tier: 'secondary',
+      detail: {
+        what: ['NoSQL veritabanı yönetimi', 'Yapılandırılmış veri saklama', 'Veri dönüştürme ve normalleştirme'],
+        experience: 'NEW MIND\'da MongoDB ile yapılandırılmış verileri sakladım. Ham veri setlerini dönüştürüp normalleştirerek veritabanına kaydettim.',
+      },
+    },
+    {
+      name: 'Docker',
+      tier: 'secondary',
+      detail: {
+        what: ['Backend servisleri containerize etme', 'Veri pipeline\'larını containerize etme', 'Linux sistemlerinde deployment'],
+        experience: 'NEW MIND\'da backend servisleri ve veri pipeline\'larını Docker ile containerize ettim. Linux sistemlerinde deployment ve ortam tutarlılığını sağladım.',
+      },
+    },
+    {
+      name: 'Apache Kafka',
+      tier: 'secondary',
+      detail: {
+        what: ['Producer ve consumer servisleri geliştirme', 'Asenkron, event-driven veri işleme', 'Fault-tolerant ve ölçeklenebilir mesaj işleme'],
+        experience: 'NEW MIND\'da Apache Kafka producer ve consumer servisleri geliştirdim. Asenkron, event-driven veri işleme sistemleri kurduk. Kafka topic\'leri, partition\'lar ve consumer group\'lar kullanarak hata toleranslı ve ölçeklenebilir mesaj işleme sağladım.',
+      },
+    },
+    {
+      name: 'n8n',
+      tier: 'secondary',
+      detail: {
+        what: ['Otomasyon workflow\'ları tasarlama', 'Web scraping, API çağrıları ve veri dönüştürme', 'Zamanlanmış ve izlenen veri pipeline\'ları'],
+        experience: 'NEW MIND\'da n8n ile otomasyon workflow\'ları oluşturdum. Web scraping, API çağrıları, veri dönüştürme ve veritabanı işlemlerini orkestre ettim. Linux ve Docker tabanlı ortamlarda n8n örneklerini yükledim ve yapılandırdım.',
+      },
+    },
+    {
+      name: 'Next.js',
+      tier: 'secondary',
+      detail: {
+        what: ['Full-stack React uygulamaları', 'SSR ve performans optimizasyonu', 'API routes ve sayfa mimarisi'],
+        experience: 'Next.js ile full-stack React uygulamaları geliştirme deneyimi. SSR ve performans optimizasyonu konularında çalıştım.',
+      },
+    },
+    {
+      name: 'TypeScript',
+      tier: 'secondary',
+      detail: {
+        what: ['Tip güvenli kod geliştirme', 'API ve state modelleri', 'Frontend ve backend kod paylaşımı'],
+        experience: 'TypeScript ile tip güvenli kod geliştirme. Frontend ve backend projelerinde TypeScript kullanarak daha sürdürülebilir kod yazdım.',
+      },
+    },
+    {
+      name: 'Redis',
+      tier: 'supporting',
+      detail: {
+        what: ['Cache stratejileri', 'Session yönetimi', 'Performans optimizasyonu'],
+        experience: 'Redis ile cache stratejileri ve performans optimizasyonu. Backend servislerde Redis kullanarak veri erişim hızını artırdım.',
+      },
+    },
+    {
+      name: 'Data Processing',
+      tier: 'supporting',
+      detail: {
+        what: ['Pandas ve NumPy ile veri analizi', 'Yüksek hacimli veri setlerini işleme', 'Veri temizleme ve normalleştirme'],
+        experience: 'Pandas ve NumPy ile veri işleme ve analiz. Yüksek hacimli veri setlerini işleyip, temizleyip normalleştirdim.',
+      },
+    },
+    {
+      name: 'Git & GitHub',
+      tier: 'supporting',
+      detail: {
+        what: ['Versiyon kontrolü', 'Kod paylaşımı ve işbirliği', 'CI/CD entegrasyonları'],
+        experience: 'Git ve GitHub ile versiyon kontrolü ve kod paylaşımı. Ekip ortamlarında işbirlikçi geliştirme yaptım.',
+      },
+    },
+    {
+      name: 'Nginx',
+      tier: 'supporting',
+      detail: {
+        what: ['Reverse proxy yapılandırması', 'Load balancing', 'Web sunucu yönetimi'],
+        experience: 'Nginx ile reverse proxy ve web sunucu yönetimi. Production ortamlarında Nginx yapılandırması yaptım.',
+      },
+    },
+    {
+      name: 'REST APIs',
+      tier: 'supporting',
+      detail: {
+        what: ['RESTful API tasarımı ve geliştirme', 'API dokümantasyonu', 'Backend-frontend entegrasyonu'],
+        experience: 'RESTful API\'ler tasarladım ve dokümante ettim. Backend servisleri React.js tabanlı frontend uygulamalarla entegre ettim.',
+      },
+    },
+    {
+      name: 'JWT & Auth',
+      tier: 'supporting',
+      detail: {
+        what: ['JWT tabanlı kimlik doğrulama', 'Güvenli authentication sistemleri', 'Kullanıcı yetkilendirme'],
+        experience: 'JWT ve authentication sistemleri geliştirdim. Güvenli kullanıcı kimlik doğrulama ve yetkilendirme mekanizmaları kurduk.',
       },
     },
     {
       name: 'System Design',
-      tier: 'secondary',
-      detail: {
-        what: ['Mikroservis ve mikrofrontend mimarisi', 'Ölçeklenebilir API ve veri modelleri', 'Kod incelemeleri ve teknik kararlar'],
-        experience: 'INAVITAS ve NEW MIND\'da sistem tasarımı ve mimari kararlara katkı; DDD ve Clean Architecture.',
-      },
-    },
-    {
-      name: 'UI Design',
-      tier: 'secondary',
-      detail: {
-        what: ['Kurumsal dashboard ve form arayüzleri', 'Tutarlı component setleri', 'Erişilebilirlik ve kullanılabilirlik'],
-        experience: 'SaaS ürünlerinde UI tasarımı ve geliştirme arasında köprü; tasarım sistemleri ve Tailwind.',
-      },
-    },
-    {
-      name: 'Performance',
-      tier: 'secondary',
-      detail: {
-        what: ['API gecikmesi ve Redis/DB optimizasyonu', 'Frontend bundle ve Web Vitals', 'Lazy loading ve caching stratejileri'],
-        experience: 'Backend\'de %40\'a varan gecikme iyileştirmesi; frontend\'de Core Web Vitals odaklı iyileştirmeler.',
-      },
-    },
-    {
-      name: 'Vue.js',
-      tier: 'secondary',
-      detail: {
-        what: ['Vue.js ile uçtan uca geliştirme', 'Vue.js ile component kütüphaneleri', 'Vue.js ile performans iyileştirmeleri'],
-        experience: 'Tüm kurumsal projelerde Vue.js ile uçtan uca geliştirme; component kütüphaneleri ve performans iyileştirmeleri.',
-      },
-    },
-    {
-      name: 'Tailwind',
-      tier: 'secondary',
-      detail: {
-        what: ['Kurumsal tasarım sistemleri', 'Responsive ve erişilebilir arayüzler', 'Utility-first component stilleri'],
-        experience: 'Tüm frontend projelerinde Tailwind CSS; tutarlı spacing, renk ve tipografi token\'ları.',
-      },
-    },
-    {
-      name: 'GraphQL',
-      tier: 'secondary',
-      detail: {
-        what: ['Schema tasarımı ve API entegrasyonu', 'React Query / Apollo ile client', 'REST ile hibrit kullanım'],
-        experience: 'Enterprise SaaS\'ta REST ve GraphQL birlikte; tip güvenli sorgular ve cache stratejileri.',
-      },
-    },
-    {
-      name: 'Docker & K8s',
-      tier: 'secondary',
-      detail: {
-        what: ['Containerization ve orkestrasyon', 'CI/CD pipeline\'larında image build', 'Yerel ve staging ortamları'],
-        experience: 'INAVITAS ve NEW MIND\'da Docker/K8s ile deployment; GitHub Actions ile CI/CD.',
-      },
-    },
-    {
-      name: 'Microfrontends',
-      tier: 'secondary',
-      detail: {
-        what: ['Module Federation ile modüler frontend', 'Paylaşılan component ve state', 'Bağımsız deploy edilebilir modüller'],
-        experience: 'Kurumsal SaaS\'ta mikrofrontend mimarisi; tek repo ve modül sınırları.',
-      },
-    },
-    {
-      name: 'Clean Architecture',
       tier: 'supporting',
       detail: {
-        what: ['Katmanlı mimari, domain odaklı modüller', 'SOLID, DDD ve TDD uygulaması', 'Test edilebilir ve sürdürülebilir kod'],
-        experience: 'Tüm projelerde Clean Architecture prensipleri; kod incelemeleri ve ekip standartları.',
-      },
-    },
-    {
-      name: 'CI/CD',
-      tier: 'supporting',
-      detail: {
-        what: ['GitHub Actions ile pipeline\'lar', 'Build, test ve deploy otomasyonu', 'Staging ve production ortamları'],
-        experience: 'Kurumsal projelerde CI/CD kurulumu ve bakımı; hata ayıklama ve hız iyileştirmeleri.',
-      },
-    },
-    {
-      name: 'Web Vitals',
-      tier: 'supporting',
-      detail: {
-        what: ['LCP, FID, CLS ölçümü ve iyileştirme', 'SEO ve performans raporları', 'Lazy load ve resource optimizasyonu'],
-        experience: 'Frontend projelerinde Core Web Vitals takibi; performans hedefleri ve iyileştirmeler.',
-      },
-    },
-    {
-      name: 'Three.js',
-      tier: 'supporting',
-      detail: {
-        what: ['Three.js ile 3D modelleri', 'Three.js ile component kütüphaneleri', 'Three.js ile performans iyileştirmeleri'],
-        experience: 'Tüm kurumsal projelerde Three.js ile 3D modelleri; component kütüphaneleri ve performans iyileştirmeleri.',
-      },
-    },
-    {
-      name: 'Mantine UI',
-      tier: 'supporting',
-      detail: {
-        what: ['Mantine UI ile uçtan uca geliştirme', 'Mantine UI ile component kütüphaneleri', 'Mantine UI ile performans iyileştirmeleri'],
-        experience: 'Tüm kurumsal projelerde Mantine UI ile uçtan uca geliştirme; component kütüphaneleri ve performans iyileştirmeleri.',
-      },
-    },
-    {
-      name: 'State Management',
-      tier: 'supporting',
-      detail: {
-        what: ['Redux Toolkit ve Zustand ile global state', 'Server state (React Query)', 'Form ve UI state yönetimi'],
-        experience: 'Kurumsal uygulamalarda karmaşık state modelleri; ölçeklenebilir ve tahmin edilebilir state.',
+        what: ['Ölçeklenebilir sistem tasarımı', 'Sürdürülebilir mimari', 'Production-grade uygulamalar'],
+        experience: 'Ölçeklenebilir, sürdürülebilir sistemler tasarladım. Production-grade uygulamalara katkıda bulundum ve işbirlikçi ekip ortamlarında çalıştım.',
       },
     },
     {
@@ -190,14 +183,13 @@ export const data = {
       tier: 'supporting',
       detail: {
         what: [
-          'PostgreSQL, MongoDB, Redis, Elasticsearch — veri katmanı ve cache',
-          'Azure, Terraform — bulut ve altyapı',
-          'JWT, OAuth2 — kimlik doğrulama',
-          'NestJS, Express — backend framework\'leri',
-          'SOLID, DDD, TDD — mimari ve test',
-          'Code Review, performans optimizasyonu',
+          'HTML5, CSS3, Bootstrap — frontend teknolojileri',
+          'Linux, Windows — işletim sistemleri',
+          'GitLab — versiyon kontrolü',
+          'Veri pipeline\'ları ve ETL süreçleri',
+          'Kod incelemeleri ve teknik dokümantasyon',
         ],
-        experience: 'Kurumsal projelerde yukarıdaki teknoloji ve pratiklerle çalıştım; detaylar için ilgili skill kartlarına bakabilirsin.',
+        experience: 'Yukarıdaki teknolojiler ve pratiklerle çalıştım. Detaylar için ilgili skill kartlarına bakabilirsin.',
       },
     },
   ],
@@ -206,31 +198,35 @@ export const data = {
   // usedIn: { projects: ['id'], experience: ['id'] }
   skills: {
     core: [
-      { name: 'React', level: 'expert', usedIn: { projects: ['1', '2'], experience: ['1', '2'] } },
-      { name: 'Next.js (SSR/ISR)', level: 'expert', usedIn: { projects: ['1'], experience: ['1', '2'] } },
-      { name: 'TypeScript', level: 'expert', usedIn: { projects: ['1', '2', '3'], experience: ['1', '2'] } },
-      { name: 'Node.js (NestJS, Express)', level: 'expert', usedIn: { projects: ['1', '2', '3'], experience: ['1', '2'] } },
-      { name: 'Microfrontends (Module Federation)', level: 'advanced', usedIn: { projects: ['1'], experience: ['2'] } },
-      { name: 'Redux Toolkit / Zustand', level: 'expert', usedIn: { projects: ['1', '2'], experience: ['1', '2'] } },
-      { name: 'Tailwind CSS', level: 'expert', usedIn: { projects: ['1', '2'], experience: ['1', '2'] } },
-      { name: 'REST & GraphQL', level: 'expert', usedIn: { projects: ['1', '2', '3'], experience: ['1', '2'] } },
-      { name: 'PostgreSQL & MongoDB', level: 'advanced', usedIn: { projects: ['1', '3'], experience: ['1', '2'] } },
-      { name: 'Redis & Elasticsearch', level: 'advanced', usedIn: { projects: ['1', '3'], experience: ['1', '2'] } },
+      { name: 'Python', level: 'expert', usedIn: { projects: [], experience: ['1'] } },
+      { name: 'Node.js (NestJS, Express)', level: 'expert', usedIn: { projects: [], experience: ['1'] } },
+      { name: 'React.js', level: 'expert', usedIn: { projects: [], experience: ['1'] } },
+      { name: 'Next.js', level: 'advanced', usedIn: { projects: [], experience: ['1'] } },
+      { name: 'JavaScript & TypeScript', level: 'expert', usedIn: { projects: [], experience: ['1'] } },
+      { name: 'REST APIs', level: 'expert', usedIn: { projects: [], experience: ['1'] } },
+      { name: 'JWT & Authentication', level: 'expert', usedIn: { projects: [], experience: ['1'] } },
+      { name: 'PostgreSQL', level: 'advanced', usedIn: { projects: [], experience: ['1'] } },
+      { name: 'MongoDB', level: 'advanced', usedIn: { projects: [], experience: ['1'] } },
+      { name: 'Elasticsearch', level: 'advanced', usedIn: { projects: [], experience: ['1'] } },
+      { name: 'Redis', level: 'advanced', usedIn: { projects: [], experience: ['1'] } },
     ],
     tools: [
-      { name: 'Docker & Kubernetes', level: 'advanced', usedIn: { projects: ['1'], experience: ['1', '2'] } },
-      { name: 'Azure', level: 'advanced', usedIn: { projects: ['1'], experience: ['2'] } },
-      { name: 'GitHub Actions & CI/CD', level: 'expert', usedIn: { projects: ['1', '2', '3'], experience: ['1', '2'] } },
-      { name: 'Terraform', level: 'intermediate', usedIn: { projects: ['1'], experience: ['2'] } },
-      { name: 'Web Vitals & SEO', level: 'expert', usedIn: { projects: ['1', '2'], experience: ['1', '2'] } },
-      { name: 'JWT & OAuth2', level: 'expert', usedIn: { projects: ['1', '2'], experience: ['1', '2'] } },
+      { name: 'Web Scraping (Scrapy, BeautifulSoup, Selenium)', level: 'expert', usedIn: { projects: [], experience: ['1'] } },
+      { name: 'Data Processing (Pandas, NumPy)', level: 'advanced', usedIn: { projects: [], experience: ['1'] } },
+      { name: 'Docker', level: 'advanced', usedIn: { projects: [], experience: ['1'] } },
+      { name: 'Apache Kafka', level: 'advanced', usedIn: { projects: [], experience: ['1'] } },
+      { name: 'n8n', level: 'advanced', usedIn: { projects: [], experience: ['1'] } },
+      { name: 'Git, GitHub, GitLab', level: 'expert', usedIn: { projects: [], experience: ['1'] } },
+      { name: 'Nginx', level: 'intermediate', usedIn: { projects: [], experience: ['1'] } },
+      { name: 'HTML5, CSS3, Bootstrap', level: 'expert', usedIn: { projects: [], experience: ['1'] } },
+      { name: 'Linux & Windows', level: 'advanced', usedIn: { projects: [], experience: ['1'] } },
     ],
     soft: [
-      { name: 'System Design', level: 'expert', usedIn: { projects: ['1', '3'], experience: ['1', '2'] } },
-      { name: 'Clean Architecture', level: 'expert', usedIn: { projects: ['1', '2', '3'], experience: ['1', '2'] } },
-      { name: 'SOLID, DDD, TDD', level: 'expert', usedIn: { projects: ['1', '2', '3'], experience: ['1', '2'] } },
-      { name: 'Code Review', level: 'expert', usedIn: { projects: ['1', '2'], experience: ['1', '2'] } },
-      { name: 'Performance Optimization', level: 'expert', usedIn: { projects: ['2', '3'], experience: ['1', '2'] } },
+      { name: 'System Design', level: 'advanced', usedIn: { projects: [], experience: ['1'] } },
+      { name: 'Data Pipeline Design', level: 'expert', usedIn: { projects: [], experience: ['1'] } },
+      { name: 'Code Review', level: 'advanced', usedIn: { projects: [], experience: ['1'] } },
+      { name: 'Technical Documentation', level: 'advanced', usedIn: { projects: [], experience: ['1'] } },
+      { name: 'Collaborative Development', level: 'expert', usedIn: { projects: [], experience: ['1'] } },
     ],
   },
 
@@ -238,79 +234,66 @@ export const data = {
   experience: [
     {
       id: '1',
-      company: 'INAVITAS',
-      role: 'Senior Full Stack Engineer',
-      period: 'Eyl 2024 — Ara 2024',
-      periodShort: '4 ay',
-      year: 2024,
-      highlights: [
-        'Kurumsal SaaS ürünlerinin iş gücü ve endüstriyel alanlarda uçtan uca geliştirmesini üstlendim.',
-        'LLM tabanlı servisleri React ve Node.js ile entegre ederek yapay zeka destekli uygulama özellikleri geliştirdim.',
-        'Redis ve veritabanı tuning ile backend performansını optimize ettim; API gecikmesini %40\'a varan oranda azalttım.',
-        'Sistem tasarımı, kod incelemeleri ve mühendislik en iyi uygulamalarına katkıda bulundum.',
-      ],
-    },
-    {
-      id: '2',
       company: 'NEW MIND',
-      role: 'Senior Full Stack Engineer',
-      period: 'Mar 2021 — Jan 2026',
-      periodShort: '4+ yıl',
-      year: 2021,
+      role: 'Full Stack Developer',
+      period: 'May 2023 — Oca 2026',
+      periodShort: '2+ yıl',
+      year: 2023,
       highlights: [
-        'Kurumsal SaaS ürünlerinin iş gücü ve endüstriyel alanlarda uçtan uca geliştirmesini üstlendim.',
-        'LLM tabanlı servisleri React ve Node.js ile entegre ederek yapay zeka destekli uygulama özellikleri geliştirdim.',
-        'Redis ve veritabanı tuning ile backend performansını optimize ettim; API gecikmesini %40\'a varan oranda azalttım.',
-        'Sistem tasarımı, kod incelemeleri ve mühendislik en iyi uygulamalarına katkıda bulundum.',
+        'AI destekli hukuk teknolojisi platformları için Python ve Node.js ile backend servisler geliştirdim ve sürdürdüm; production ortamlarında büyük ölçekli hukuki veri setlerini işledim.',
+        'Scrapy, BeautifulSoup, Selenium ve özel script\'ler kullanarak açık kaynak platformlardan hukuki belgeleri toplayan otomatik web scraping ve veri çıkarma pipeline\'ları tasarladım ve geliştirdim.',
+        'Yüksek hacimli veri setlerini işleyip, temizleyip normalleştirerek veri tutarlılığı, doğruluğu ve kullanılabilirliğini sağladım; analitik ve arama sistemleri için hazır hale getirdim.',
+        'Elasticsearch tabanlı full-text search, filtreleme ve indeksleme özellikleri geliştirdim; hukuki belgelere hızlı ve ölçeklenebilir erişim sağladım.',
+        'RESTful API\'ler geliştirdim ve dokümante ettim; backend servisleri React.js tabanlı frontend uygulamalarla entegre ettim.',
+        'PostgreSQL ve MongoDB veritabanlarını yönettim ve optimize ettim; veri modelleme, indeksleme ve performans tuning yaptım.',
+        'Docker ile backend servisleri ve veri pipeline\'larını containerize ettim; Linux sistemlerinde deployment ve ortam tutarlılığını sağladım.',
+        '1+ yıl süredir production ortamında veri alım pipeline\'larını tasarladım ve sürdürdüm; sürekli veri toplama ve işleme workflow\'larını yönettim.',
+        'n8n ile web scraping, API çağrıları, veri dönüştürme ve veritabanı işlemlerini orkestre eden otomasyon workflow\'ları oluşturdum.',
+        'Linux ve Docker tabanlı ortamlarda n8n örneklerini yükledim, yapılandırdım ve sürdürdüm; zamanlanmış ve izlenen veri pipeline\'ları kurduk.',
+        'Apache Kafka producer ve consumer servisleri geliştirdim; scraping servisleri, backend sistemler ve downstream consumer\'lar arasında asenkron, event-driven veri işlemeyi sağladım.',
+        'Yeni alınan ve işlenen veriler için Kafka mesajları ürettim; mesajları tüketerek veri indeksleme, dönüştürme ve kalıcılık workflow\'larını tetikledim.',
+        'Kafka topic\'leri, partition\'lar ve consumer group\'lar kullanarak hata toleranslı ve ölçeklenebilir mesaj işleme sağladım.',
+        'Kafka tabanlı pipeline\'ları PostgreSQL, MongoDB ve Elasticsearch ile entegre ettim; gerçek zamanlı ve batch veri işleme kullanım senaryolarını destekledim.',
       ],
     },
   ],
 
   education: [
-    { degree: 'B.Sc. Elektrik & Elektronik Mühendisliği', school: 'Selçuk Üniversitesi' },
-    { degree: 'Full Stack Developer Uzmanlık', school: 'Smart Pro' },
+    { degree: 'BSc, Yönetim Bilişim Sistemleri (Devam Ediyor)', school: 'Anadolu Üniversitesi', period: 'Eyl 2023 – Haz 2027' },
+    { degree: 'Full Stack Developer Eğitimi', school: 'Bahçeşehir Üniversitesi (Wissen Academy)', period: 'Kas 2022 – Haz 2023' },
+    { degree: 'BSc, İnşaat Mühendisliği', school: 'Kahramanmaraş Sütçü İmam Üniversitesi', period: 'Eyl 2018 – Tem 2021 | GPA: 2.85' },
   ],
 
-  // ——— Projeler (tag’lere göre filtre; image opsiyonel) ———
+  // ——— Projeler (tag'lere göre filtre; image opsiyonel) ———
   projects: [
     {
       id: '1',
-      title: 'Mürşit AI',
-      description: 'NEW MIND\'da geliştirdiğim yapay zeka asistanı mobil uygulaması. Kurumsal bilgi ve karar destek sistemleri için AI çözümleri.',
-      longDescription: 'Yapay zeka tabanlı asistan uygulaması; kurum içi bilgi yönetimi ve karar alma süreçlerini destekleyen özellikler. React Native ile mobil, LLM entegrasyonu.',
-      tags: ['React Native', 'AI', 'LLM', 'Mobile'],
+      title: 'AI Destekli Hukuk Teknolojisi Platformu',
+      description: 'NEW MIND\'da geliştirdiğim AI destekli hukuk teknolojisi platformu. Büyük ölçekli hukuki veri setlerini işleyen, Elasticsearch tabanlı arama sistemleri içeren full-stack uygulama.',
+      longDescription: 'Python ve Node.js ile backend servisler, React.js ile frontend geliştirme. Web scraping pipeline\'ları, veri işleme ve normalleştirme sistemleri. Elasticsearch ile full-text search ve filtreleme özellikleri.',
+      tags: ['Python', 'Node.js', 'React', 'Elasticsearch', 'PostgreSQL', 'MongoDB'],
       github: null,
-      demo: 'https://apps.apple.com/tr/app/m%C3%BCr%C5%9Fit-ai/id6737899896?l=tr',
+      demo: null,
       image: null,
     },
     {
       id: '2',
-      title: 'Mesai',
-      description: 'Toplantı yönetimi ve yapay zeka asistanı uygulaması. Transkripsiyon, AI özetleri, aksiyon takibi ve Mesai Chat ile iş toplantılarını verimli hale getirir.',
-      longDescription: 'Profesyonel iş akışlarını ve toplantı verimliliğini artıran toplantı yönetimi uygulaması. Transkripsiyon, AI özetleri, aksiyon maddeleri ve raporlama.',
-      tags: ['Flutter', 'Node.js', 'AI', 'Mobile'],
+      title: 'Otomatik Veri Toplama ve İşleme Pipeline\'ı',
+      description: 'Açık kaynak platformlardan hukuki belgeleri toplayan, işleyen ve normalleştiren otomatik veri pipeline sistemi. Scrapy, BeautifulSoup, Selenium ve n8n kullanılarak geliştirildi.',
+      longDescription: 'Web scraping ve veri çıkarma pipeline\'ları. Kafka ile event-driven veri işleme. PostgreSQL, MongoDB ve Elasticsearch entegrasyonları. 1+ yıl production ortamında sürekli veri toplama ve işleme.',
+      tags: ['Python', 'Scrapy', 'BeautifulSoup', 'Selenium', 'Kafka', 'n8n', 'Docker'],
       github: null,
-      demo: 'https://apps.apple.com/tr/app/mesaim/id6472804050',
+      demo: null,
       image: null,
     },
     {
       id: '3',
-      title: 'NMaistro',
-      description: 'Akıllı AI ajanları kurup yönetebileceğiniz platform. 200+ MCP entegrasyonu, kişisel ve kurumsal görevler için doğal dil ile ajan orkestrasyonu.',
-      longDescription: 'Bağlı ajanlarla kişisel "AI evreninizi" kurabileceğiniz platform. GİB kararları, rekabet hukuku uyumu, seyahat planlama gibi otomasyonlar. Google Play\'de yayında.',
-      tags: ['React', 'Node.js', 'AI', 'Agents', 'MCP'],
-      github: null,
-      demo: 'https://nmaistro.ai/',
-      image: null,
-    },
-    {
-      id: '4',
       title: 'Mecellem',
       description: 'mecellem.com üzerinde yer alan hukuk ve kurumsal yönetim SPA uygulamaları. Uyum yönetimi, risk analizi, hukuki içgörüler; 36+ ürün ve 300+ orkestrasyon modeli.',
-      longDescription: 'Hukuk alanına özel platform; mevzuata uyumlu kararlar için uyum yönetimi, risk analizi ve hukuki içgörüler. Muamelat modülü ile karmaşık hukuki işlemlerin yönetimi. Mikrofrontend ve SPA mimarisi.',
+      longDescription: 'Hukuk alanına özel platform; mevzuata uyumlu kararlar için uyum yönetimi, risk analizi ve hukuki içgörüler. Muamelat modülü ile karmaşık hukuki işlemlerin yönetimi. Next.js, React ve TypeScript ile geliştirilmiş SPA mimarisi.',
       tags: ['Next.js', 'React', 'TypeScript', 'SPA', 'Legal Tech'],
       github: null,
-      demo: 'https://www.mecellem.com',
+      demo: 'https://mecellem.com/en',
       image: null,
     },
   ],
@@ -327,180 +310,173 @@ export const data = {
 // ——— English locale: same structure, English text ———
 export const dataEn = {
   person: {
-    name: 'Enes Özer',
-    title: 'Senior Full Stack Engineer',
-    valueProposition: 'Engineer who designs enterprise SaaS end-to-end, specializes in microservices and microfrontend architectures, and delivers performance- and reliability-focused solutions.',
-    email: 'enesozer@yahoo.com',
-    phone: '+90 554 654 42 30',
-    linkedin: 'https://www.linkedin.com/in/enes-%C3%B6zer-b818021b0/',
-    github: 'https://github.com/enesozer',
+    name: 'Tarık Buğra Özcan',
+    title: 'Full Stack Developer (Python, Node.js, React)',
+    location: 'Istanbul, Turkey',
+    valueProposition: 'Full Stack Developer building AI-assisted legal technology platforms, specializing in web scraping and large-scale data processing pipelines; designing Elasticsearch-based search systems and scalable, maintainable systems.',
+    email: 'ozcantarkbugra@gmail.com',
+    phone: '+90 545 550 50 02',
+    linkedin: 'https://linkedin.com/in/ozcantarkbugra',
+    github: 'https://github.com/ozcantarkbugra',
     cta: {
       primary: 'View Projects',
       secondary: 'Get in Touch',
     },
   },
   summary:
-    'Senior Full Stack Engineer with 5+ years of experience designing, building, and scaling enterprise SaaS platforms. Deep expertise in microservices and microfrontend architectures; focus on performance, security, and system reliability. I own complex systems end-to-end and deliver solutions aligned with business goals.',
+    'Full Stack Developer with 2+ years of experience building AI-assisted legal technology platforms. Strong background in backend development using Python and Node.js, combined with hands-on frontend experience in React.js. Specialized in web scraping, large-scale data processing pipelines, and search systems powered by Elasticsearch. Over 1 year of experience collecting data from open-source platforms, transforming and normalizing raw datasets, and storing structured data in PostgreSQL, MongoDB, and Elasticsearch. Experienced in designing scalable, maintainable systems and contributing to production-grade applications in collaborative team environments.',
 
   coreSkillsShowcase: [
     {
-      name: 'JavaScript',
+      name: 'Python',
       tier: 'primary',
       detail: {
-        what: ['End-to-end development with JavaScript', 'Component libraries with JavaScript', 'Performance improvements with JavaScript'],
-        experience: 'End-to-end development with JavaScript across all enterprise projects; component libraries and performance improvements.',
+        what: ['Backend service development and maintenance', 'Web scraping and data processing pipelines', 'Processing and normalizing large-scale datasets'],
+        experience: '2+ years developing Python backend services for AI-assisted legal technology platforms at NEW MIND. Designed web scraping pipelines using Scrapy, BeautifulSoup, Selenium, and built large-scale data processing systems.',
       },
     },
     {
       name: 'React',
       tier: 'primary',
       detail: {
-        what: ['Enterprise SaaS UIs, microfrontend modules', 'LLM-integrated features, state management (Redux/Zustand)', 'Web Vitals and accessibility-focused development'],
-        experience: '5+ years of end-to-end React development on enterprise SaaS at INAVITAS and NEW MIND; component libraries and performance improvements.',
-      },
-    },
-    {
-      name: 'TypeScript',
-      tier: 'secondary',
-      detail: {
-        what: ['Type-safe API and state models', 'Microfrontend and monorepo structures', 'Backend and frontend code sharing'],
-        experience: 'TypeScript mandatory across enterprise projects; strict mode, utility types, and DDD-aligned models.',
-      },
-    },
-    {
-      name: 'React Native',
-      tier: 'secondary',
-      detail: {
-        what: ['Mobile apps with React Native', 'Component libraries with React Native', 'Performance improvements with React Native'],
-        experience: 'Mobile apps with React Native across enterprise projects; component libraries and performance improvements.',
-      },
-    },
-    {
-      name: 'Next.js',
-      tier: 'secondary',
-      detail: {
-        what: ['SSR/ISR for SEO and performance', 'API routes and full-stack pages', 'Page architecture in enterprise products'],
-        experience: 'Next.js with SSR and ISR on enterprise SaaS; NEW MIND and INAVITAS projects.',
+        what: ['Frontend development for AI-assisted legal technology platforms', 'RESTful API integrations', 'User interface and interaction design'],
+        experience: 'Frontend development experience with React.js at NEW MIND. Contributed to production-grade applications integrated with backend services.',
       },
     },
     {
       name: 'Node.js',
       tier: 'secondary',
       detail: {
-        what: ['REST/GraphQL APIs, microservices', 'LLM service integration', 'Backend optimization with Redis, PostgreSQL'],
-        experience: '3+ years with NestJS and Express; up to 40% latency improvement, Redis and DB tuning.',
+        what: ['Backend service development with NestJS and Express', 'RESTful API design and documentation', 'JWT and Authentication systems'],
+        experience: 'Developed backend services with Node.js (NestJS, Express) at NEW MIND. Designed RESTful APIs and integrated them with React.js-based frontend applications.',
+      },
+    },
+    {
+      name: 'Elasticsearch',
+      tier: 'secondary',
+      detail: {
+        what: ['Full-text search and filtering features', 'Indexing systems for legal documents', 'Fast and scalable search solutions'],
+        experience: 'Developed Elasticsearch-based full-text search, filtering, and indexing features at NEW MIND. Built fast and scalable search systems for legal documents.',
+      },
+    },
+    {
+      name: 'Web Scraping',
+      tier: 'secondary',
+      detail: {
+        what: ['Automated data collection with Scrapy, BeautifulSoup, Selenium', 'Data extraction from open-source platforms', 'Custom scraping scripts'],
+        experience: '1+ years of experience collecting legal documents from open-source platforms. Designed automated web scraping and data extraction pipelines using Scrapy, BeautifulSoup, Selenium, and custom scripts.',
+      },
+    },
+    {
+      name: 'PostgreSQL',
+      tier: 'secondary',
+      detail: {
+        what: ['Database management and optimization', 'Data modeling and indexing', 'Performance tuning and query optimization'],
+        experience: 'Managed and optimized PostgreSQL databases at NEW MIND. Gained experience in data modeling, indexing, and performance tuning.',
+      },
+    },
+    {
+      name: 'MongoDB',
+      tier: 'secondary',
+      detail: {
+        what: ['NoSQL database management', 'Structured data storage', 'Data transformation and normalization'],
+        experience: 'Stored structured data with MongoDB at NEW MIND. Transformed and normalized raw datasets before storing them in the database.',
+      },
+    },
+    {
+      name: 'Docker',
+      tier: 'secondary',
+      detail: {
+        what: ['Containerizing backend services', 'Containerizing data pipelines', 'Deployment on Linux systems'],
+        experience: 'Containerized backend services and data pipelines with Docker at NEW MIND. Ensured deployment and environment consistency across Linux systems.',
+      },
+    },
+    {
+      name: 'Apache Kafka',
+      tier: 'secondary',
+      detail: {
+        what: ['Developing producer and consumer services', 'Asynchronous, event-driven data processing', 'Fault-tolerant and scalable message processing'],
+        experience: 'Developed Apache Kafka producer and consumer services at NEW MIND. Built asynchronous, event-driven data processing systems. Ensured fault-tolerant and scalable message processing using Kafka topics, partitions, and consumer groups.',
+      },
+    },
+    {
+      name: 'n8n',
+      tier: 'secondary',
+      detail: {
+        what: ['Designing automation workflows', 'Web scraping, API calls, and data transformation', 'Scheduled and monitored data pipelines'],
+        experience: 'Created automation workflows with n8n at NEW MIND. Orchestrated web scraping, API calls, data transformation, and database operations. Installed and configured n8n instances in Linux and Docker-based environments.',
+      },
+    },
+    {
+      name: 'Next.js',
+      tier: 'secondary',
+      detail: {
+        what: ['Full-stack React applications', 'SSR and performance optimization', 'API routes and page architecture'],
+        experience: 'Full-stack React application development experience with Next.js. Worked on SSR and performance optimization.',
+      },
+    },
+    {
+      name: 'TypeScript',
+      tier: 'secondary',
+      detail: {
+        what: ['Type-safe code development', 'API and state models', 'Frontend and backend code sharing'],
+        experience: 'Type-safe code development with TypeScript. Wrote more maintainable code using TypeScript in frontend and backend projects.',
+      },
+    },
+    {
+      name: 'Redis',
+      tier: 'supporting',
+      detail: {
+        what: ['Cache strategies', 'Session management', 'Performance optimization'],
+        experience: 'Cache strategies and performance optimization with Redis. Improved data access speed by using Redis in backend services.',
+      },
+    },
+    {
+      name: 'Data Processing',
+      tier: 'supporting',
+      detail: {
+        what: ['Data analysis with Pandas and NumPy', 'Processing high-volume datasets', 'Data cleaning and normalization'],
+        experience: 'Data processing and analysis with Pandas and NumPy. Processed, cleaned, and normalized high-volume datasets.',
+      },
+    },
+    {
+      name: 'Git & GitHub',
+      tier: 'supporting',
+      detail: {
+        what: ['Version control', 'Code sharing and collaboration', 'CI/CD integrations'],
+        experience: 'Version control and code sharing with Git and GitHub. Collaborated in team environments.',
+      },
+    },
+    {
+      name: 'Nginx',
+      tier: 'supporting',
+      detail: {
+        what: ['Reverse proxy configuration', 'Load balancing', 'Web server management'],
+        experience: 'Reverse proxy and web server management with Nginx. Configured Nginx in production environments.',
+      },
+    },
+    {
+      name: 'REST APIs',
+      tier: 'supporting',
+      detail: {
+        what: ['RESTful API design and development', 'API documentation', 'Backend-frontend integration'],
+        experience: 'Designed and documented RESTful APIs. Integrated backend services with React.js-based frontend applications.',
+      },
+    },
+    {
+      name: 'JWT & Auth',
+      tier: 'supporting',
+      detail: {
+        what: ['JWT-based authentication', 'Secure authentication systems', 'User authorization'],
+        experience: 'Developed JWT and authentication systems. Built secure user authentication and authorization mechanisms.',
       },
     },
     {
       name: 'System Design',
-      tier: 'secondary',
-      detail: {
-        what: ['Microservices and microfrontend architecture', 'Scalable API and data models', 'Code reviews and technical decisions'],
-        experience: 'Contributed to system design and architecture decisions at INAVITAS and NEW MIND; DDD and Clean Architecture.',
-      },
-    },
-    {
-      name: 'UI Design',
-      tier: 'secondary',
-      detail: {
-        what: ['Enterprise dashboards and form UIs', 'Consistent component sets', 'Accessibility and usability'],
-        experience: 'Bridging UI design and development on SaaS products; design systems and Tailwind.',
-      },
-    },
-    {
-      name: 'Performance',
-      tier: 'secondary',
-      detail: {
-        what: ['API latency and Redis/DB optimization', 'Frontend bundle and Web Vitals', 'Lazy loading and caching strategies'],
-        experience: 'Up to 40% latency improvement on the backend; Core Web Vitals–focused improvements on the frontend.',
-      },
-    },
-    {
-      name: 'Vue.js',
-      tier: 'secondary',
-      detail: {
-        what: ['End-to-end development with Vue.js', 'Component libraries with Vue.js', 'Performance improvements with Vue.js'],
-        experience: 'End-to-end development with Vue.js across enterprise projects; component libraries and performance improvements.',
-      },
-    },
-    {
-      name: 'Tailwind',
-      tier: 'secondary',
-      detail: {
-        what: ['Enterprise design systems', 'Responsive and accessible UIs', 'Utility-first component styling'],
-        experience: 'Tailwind CSS on all frontend projects; consistent spacing, color, and typography tokens.',
-      },
-    },
-    {
-      name: 'GraphQL',
-      tier: 'secondary',
-      detail: {
-        what: ['Schema design and API integration', 'React Query / Apollo client', 'Hybrid use with REST'],
-        experience: 'REST and GraphQL together on enterprise SaaS; type-safe queries and cache strategies.',
-      },
-    },
-    {
-      name: 'Docker & K8s',
-      tier: 'secondary',
-      detail: {
-        what: ['Containerization and orchestration', 'Image build in CI/CD pipelines', 'Local and staging environments'],
-        experience: 'Docker/K8s deployment at INAVITAS and NEW MIND; CI/CD with GitHub Actions.',
-      },
-    },
-    {
-      name: 'Microfrontends',
-      tier: 'secondary',
-      detail: {
-        what: ['Modular frontend with Module Federation', 'Shared components and state', 'Independently deployable modules'],
-        experience: 'Microfrontend architecture on enterprise SaaS; single repo and module boundaries.',
-      },
-    },
-    {
-      name: 'Clean Architecture',
       tier: 'supporting',
       detail: {
-        what: ['Layered architecture, domain-focused modules', 'SOLID, DDD, and TDD practice', 'Testable and maintainable code'],
-        experience: 'Clean Architecture principles across projects; code reviews and team standards.',
-      },
-    },
-    {
-      name: 'CI/CD',
-      tier: 'supporting',
-      detail: {
-        what: ['Pipelines with GitHub Actions', 'Build, test, and deploy automation', 'Staging and production environments'],
-        experience: 'CI/CD setup and maintenance on enterprise projects; debugging and speed improvements.',
-      },
-    },
-    {
-      name: 'Web Vitals',
-      tier: 'supporting',
-      detail: {
-        what: ['LCP, FID, CLS measurement and improvement', 'SEO and performance reporting', 'Lazy load and resource optimization'],
-        experience: 'Core Web Vitals tracking on frontend projects; performance targets and improvements.',
-      },
-    },
-    {
-      name: 'Three.js',
-      tier: 'supporting',
-      detail: {
-        what: ['3D models with Three.js', 'Component libraries with Three.js', 'Performance improvements with Three.js'],
-        experience: '3D models with Three.js across enterprise projects; component libraries and performance improvements.',
-      },
-    },
-    {
-      name: 'Mantine UI',
-      tier: 'supporting',
-      detail: {
-        what: ['End-to-end development with Mantine UI', 'Component libraries with Mantine UI', 'Performance improvements with Mantine UI'],
-        experience: 'End-to-end development with Mantine UI across enterprise projects; component libraries and performance improvements.',
-      },
-    },
-    {
-      name: 'State Management',
-      tier: 'supporting',
-      detail: {
-        what: ['Global state with Redux Toolkit and Zustand', 'Server state (React Query)', 'Form and UI state management'],
-        experience: 'Complex state models in enterprise apps; scalable and predictable state.',
+        what: ['Scalable system design', 'Maintainable architecture', 'Production-grade applications'],
+        experience: 'Designed scalable, maintainable systems. Contributed to production-grade applications and worked in collaborative team environments.',
       },
     },
     {
@@ -508,14 +484,13 @@ export const dataEn = {
       tier: 'supporting',
       detail: {
         what: [
-          'PostgreSQL, MongoDB, Redis, Elasticsearch — data layer and cache',
-          'Azure, Terraform — cloud and infrastructure',
-          'JWT, OAuth2 — authentication',
-          'NestJS, Express — backend frameworks',
-          'SOLID, DDD, TDD — architecture and testing',
-          'Code review, performance optimization',
+          'HTML5, CSS3, Bootstrap — frontend technologies',
+          'Linux, Windows — operating systems',
+          'GitLab — version control',
+          'Data pipelines and ETL processes',
+          'Code reviews and technical documentation',
         ],
-        experience: 'I have worked with the above technologies and practices on enterprise projects; see the relevant skill cards for details.',
+        experience: 'Worked with the above technologies and practices. See relevant skill cards for details.',
       },
     },
   ],
@@ -525,78 +500,65 @@ export const dataEn = {
   experience: [
     {
       id: '1',
-      company: 'INAVITAS',
-      role: 'Senior Full Stack Engineer',
-      period: 'Sep 2024 — Dec 2024',
-      periodShort: '4 mo',
-      year: 2024,
-      highlights: [
-        'Led end-to-end development of enterprise SaaS products in workforce and industrial domains.',
-        'Built AI-powered application features by integrating LLM-based services with React and Node.js.',
-        'Optimized backend performance with Redis and database tuning; reduced API latency by up to 40%.',
-        'Contributed to system design, code reviews, and engineering best practices.',
-      ],
-    },
-    {
-      id: '2',
       company: 'NEW MIND',
-      role: 'Senior Full Stack Engineer',
-      period: 'Mar 2021 — Jan 2026',
-      periodShort: '4+ yr',
-      year: 2021,
+      role: 'Full Stack Developer',
+      period: 'May 2023 — Jan 2026',
+      periodShort: '2+ yr',
+      year: 2023,
       highlights: [
-        'Led end-to-end development of enterprise SaaS products in workforce and industrial domains.',
-        'Built AI-powered application features by integrating LLM-based services with React and Node.js.',
-        'Optimized backend performance with Redis and database tuning; reduced API latency by up to 40%.',
-        'Contributed to system design, code reviews, and engineering best practices.',
+        'Developed and maintained backend services using Python and Node.js for AI-assisted legal technology platforms handling large-scale legal datasets in production environments.',
+        'Designed and built automated web scraping and data extraction pipelines to collect legal documents from open-source platforms using Scrapy, BeautifulSoup, Selenium, and custom scripts.',
+        'Processed, cleaned, and normalized high-volume datasets to ensure data consistency, accuracy, and usability for analytics and search systems.',
+        'Implemented Elasticsearch-based full-text search, filtering, and indexing features to enable fast and scalable access to legal documents.',
+        'Developed and documented RESTful APIs and integrated backend services with React.js-based frontend applications.',
+        'Managed and optimized PostgreSQL and MongoDB databases, including data modeling, indexing, and performance tuning.',
+        'Containerized backend services and data pipelines using Docker, supporting deployment and environment consistency across Linux systems.',
+        'Designed and maintained data ingestion pipelines for over 1 year in production, handling continuous data collection and processing workflows.',
+        'Built automation workflows using n8n to orchestrate web scraping, API calls, data transformation, and database operations.',
+        'Installed, configured, and maintained n8n instances in Linux and Docker-based environments, enabling scheduled and monitored data pipelines.',
+        'Implemented Apache Kafka producer and consumer services to enable asynchronous, event-driven data processing between scraping services, backend systems, and downstream consumers.',
+        'Produced Kafka messages for newly ingested and processed data, and consumed messages to trigger data indexing, transformation, and persistence workflows.',
+        'Ensured fault-tolerant and scalable message processing by leveraging Kafka topics, partitions, and consumer groups.',
+        'Integrated Kafka-based pipelines with PostgreSQL, MongoDB, and Elasticsearch to support real-time and batch data processing use cases.',
       ],
     },
   ],
 
   education: [
-    { degree: 'B.Sc. Electrical & Electronics Engineering', school: 'Selçuk University' },
-    { degree: 'Full Stack Developer Specialization', school: 'Smart Pro' },
+    { degree: 'BSc, Management Information Systems (In Progress)', school: 'Anadolu University', period: 'Sep 2023 – Jun 2027' },
+    { degree: 'Full Stack Developer Training', school: 'Bahçeşehir University (Wissen Academy)', period: 'Nov 2022 – Jun 2023' },
+    { degree: 'BSc, Civil Engineering', school: 'Kahramanmaraş Sütçü İmam University', period: 'Sep 2018 – Jul 2021 | GPA: 2.85' },
   ],
 
   projects: [
     {
       id: '1',
-      title: 'Mürşit AI',
-      description: 'AI assistant mobile app I built at NEW MIND for corporate knowledge and decision-support systems.',
-      longDescription: 'AI-powered assistant app supporting organizational knowledge management and decision-making. React Native mobile app with LLM integration.',
-      tags: ['React Native', 'AI', 'LLM', 'Mobile'],
+      title: 'AI-Assisted Legal Technology Platform',
+      description: 'AI-assisted legal technology platform I developed at NEW MIND. Full-stack application processing large-scale legal datasets with Elasticsearch-based search systems.',
+      longDescription: 'Backend services with Python and Node.js, frontend development with React.js. Web scraping pipelines, data processing and normalization systems. Full-text search and filtering features with Elasticsearch.',
+      tags: ['Python', 'Node.js', 'React', 'Elasticsearch', 'PostgreSQL', 'MongoDB'],
       github: null,
-      demo: 'https://apps.apple.com/tr/app/m%C3%BCr%C5%9Fit-ai/id6737899896?l=tr',
+      demo: null,
       image: null,
     },
     {
       id: '2',
-      title: 'Mesai',
-      description: 'Meeting management and AI assistant app. Transcription, AI summaries, action tracking, and Mesai Chat to make business meetings more productive.',
-      longDescription: 'Meeting management app that improves professional workflows and meeting efficiency. Transcription, AI summaries, action items, and reporting.',
-      tags: ['Flutter', 'Node.js', 'AI', 'Mobile'],
+      title: 'Automated Data Collection and Processing Pipeline',
+      description: 'Automated data pipeline system collecting, processing, and normalizing legal documents from open-source platforms. Developed using Scrapy, BeautifulSoup, Selenium, and n8n.',
+      longDescription: 'Web scraping and data extraction pipelines. Event-driven data processing with Kafka. PostgreSQL, MongoDB, and Elasticsearch integrations. Continuous data collection and processing in production for 1+ years.',
+      tags: ['Python', 'Scrapy', 'BeautifulSoup', 'Selenium', 'Kafka', 'n8n', 'Docker'],
       github: null,
-      demo: 'https://apps.apple.com/tr/app/mesaim/id6472804050',
+      demo: null,
       image: null,
     },
     {
       id: '3',
-      title: 'NMaistro',
-      description: 'Platform to build and orchestrate intelligent AI agents. 200+ MCP integrations, natural-language agent orchestration for personal and business tasks.',
-      longDescription: 'Build your personal "AI universe" with connected agents. Tax (GIB) compliance, competition law monitoring, travel planning automation. Available on Google Play.',
-      tags: ['React', 'Node.js', 'AI', 'Agents', 'MCP'],
-      github: null,
-      demo: 'https://nmaistro.ai/',
-      image: null,
-    },
-    {
-      id: '4',
       title: 'Mecellem',
       description: 'Legal and corporate governance SPA applications on mecellem.com. Compliance management, risk analysis, legal insights; 36+ products and 300+ orchestration models.',
-      longDescription: 'Legal-tech platform for compliance, risk analysis, and legal insights. Muamelat module for managing complex legal transactions. Microfrontend and SPA architecture.',
+      longDescription: 'Legal-tech platform for compliance, risk analysis, and legal insights. Muamelat module for managing complex legal transactions. SPA architecture developed with Next.js, React, and TypeScript.',
       tags: ['Next.js', 'React', 'TypeScript', 'SPA', 'Legal Tech'],
       github: null,
-      demo: 'https://www.mecellem.com',
+      demo: 'https://mecellem.com/en',
       image: null,
     },
   ],

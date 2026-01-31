@@ -9,7 +9,7 @@ REPO_NAME="${GITHUB_REPOSITORY##*/}"
 REPO_NAME="${REPO_NAME:-Portfolio}"
 
 echo "Building for GitHub Pages (base: /${REPO_NAME}/)..."
-GITHUB_REPOSITORY="${GITHUB_REPOSITORY:-enesozer/Portfolio}" VITE_DEPLOY_TARGET=gh-pages npm run build
+GITHUB_REPOSITORY="${GITHUB_REPOSITORY:-ozcantarkbugra/MyPortfolio}" VITE_DEPLOY_TARGET=gh-pages npm run build
 
 echo "Deploying to gh-pages branch..."
 npx gh-pages -d dist
