@@ -7,7 +7,7 @@ export const data = {
   // ——— Hero & Kişisel ———
   person: {
     name: 'Tarık Buğra Özcan',
-    title: 'Full Stack Developer (Python, Node.js, React)',
+    title: 'Full Stack Developer | Backend Engineer | Scalable Systems & API Design',
     location: 'Istanbul, Türkiye',
     valueProposition: 'AI destekli hukuk teknolojisi platformları geliştiren, web scraping ve büyük ölçekli veri işleme pipeline\'larında uzman; Elasticsearch tabanlı arama sistemleri ve ölçeklenebilir, sürdürülebilir sistemler tasarlayan Full Stack Developer.',
     email: 'ozcantarkbugra@gmail.com',
@@ -22,7 +22,7 @@ export const data = {
 
   // ——— Profesyonel Özet ———
   summary:
-    'AI destekli hukuk teknolojisi platformları geliştiren 2+ yıl deneyime sahip Full Stack Developer. Python ve Node.js ile backend geliştirmede güçlü bir geçmişe sahip, React.js ile frontend deneyimi birleştiriyorum. Web scraping, büyük ölçekli veri işleme pipeline\'ları ve Elasticsearch ile güçlendirilmiş arama sistemlerinde uzmanlaştım. 1 yıldan fazla süredir açık kaynak platformlardan veri toplama, ham veri setlerini dönüştürme ve normalleştirme, yapılandırılmış verileri PostgreSQL, MongoDB ve Elasticsearch\'te saklama deneyimim var. Ölçeklenebilir, sürdürülebilir sistemler tasarlama ve işbirlikçi ekip ortamlarında production-grade uygulamalara katkıda bulunma konusunda deneyimliyim.',
+    'Backend odaklı, 2+ yıl deneyime sahip Full Stack Developer. Ölçeklenebilir, veri yoğun sistemler ve production-grade uygulamalar geliştirme deneyimine sahibim. AI destekli hukuk teknolojisi platformları için modüler ve servis tabanlı mimariler, RESTful API\'ler ve yüksek performanslı veri pipeline\'ları tasarladım. Dağıtık sistemlerde API versioning, backward compatibility, schema evolution farkındalığı ve dependency management konularında pratik deneyim kazandım. Event-driven mimari, veritabanı tasarımı ve sistem optimizasyonu alanlarında; performans, sürdürülebilirlik ve güvenilirlik odaklı çalışıyorum.',
 
   // ——— Core Skills showcase: tier + detail (açılan panelde gösterilir) ———
   coreSkillsShowcase: [
@@ -48,6 +48,14 @@ export const data = {
       detail: {
         what: ['NestJS ve Express ile backend servis geliştirme', 'RESTful API tasarımı ve dokümantasyonu', 'JWT ve Authentication sistemleri'],
         experience: 'NEW MIND\'da Node.js (NestJS, Express) ile backend servisler geliştirdim. RESTful API\'ler tasarladım ve React.js tabanlı frontend uygulamalarla entegre ettim.',
+      },
+    },
+    {
+      name: 'ASP.NET (.NET Core)',
+      tier: 'secondary',
+      detail: {
+        what: ['ASP.NET Core ile backend servis geliştirme', 'RESTful API tasarımı ve sürümleme yaklaşımı', 'C# ile modüler ve sürdürülebilir servis mimarileri'],
+        experience: 'NEW MIND\'da ASP.NET (C#/.NET Core) ile backend servisleri geliştirdim. Node.js servisleriyle birlikte çalışan, ölçeklenebilir ve production-grade API katmanları oluşturduk.',
       },
     },
     {
@@ -200,29 +208,37 @@ export const data = {
     core: [
       { name: 'Python', level: 'expert', usedIn: { projects: [], experience: ['1'] } },
       { name: 'Node.js (NestJS, Express)', level: 'expert', usedIn: { projects: [], experience: ['1'] } },
+      { name: 'ASP.NET Core (.NET, C#)', level: 'advanced', usedIn: { projects: [], experience: ['1'] } },
       { name: 'React.js', level: 'expert', usedIn: { projects: [], experience: ['1'] } },
       { name: 'Next.js', level: 'advanced', usedIn: { projects: [], experience: ['1'] } },
       { name: 'JavaScript & TypeScript', level: 'expert', usedIn: { projects: [], experience: ['1'] } },
       { name: 'REST APIs', level: 'expert', usedIn: { projects: [], experience: ['1'] } },
       { name: 'JWT & Authentication', level: 'expert', usedIn: { projects: [], experience: ['1'] } },
       { name: 'PostgreSQL', level: 'advanced', usedIn: { projects: [], experience: ['1'] } },
+      { name: 'MSSQL', level: 'advanced', usedIn: { projects: [], experience: ['1'] } },
       { name: 'MongoDB', level: 'advanced', usedIn: { projects: [], experience: ['1'] } },
       { name: 'Elasticsearch', level: 'advanced', usedIn: { projects: [], experience: ['1'] } },
       { name: 'Redis', level: 'advanced', usedIn: { projects: [], experience: ['1'] } },
     ],
     tools: [
       { name: 'Web Scraping (Scrapy, BeautifulSoup, Selenium)', level: 'expert', usedIn: { projects: [], experience: ['1'] } },
+      { name: 'Entity Framework, Dapper, NHibernate', level: 'advanced', usedIn: { projects: [], experience: ['1'] } },
       { name: 'Data Processing (Pandas, NumPy)', level: 'advanced', usedIn: { projects: [], experience: ['1'] } },
       { name: 'Docker', level: 'advanced', usedIn: { projects: [], experience: ['1'] } },
       { name: 'Apache Kafka', level: 'advanced', usedIn: { projects: [], experience: ['1'] } },
       { name: 'n8n', level: 'advanced', usedIn: { projects: [], experience: ['1'] } },
       { name: 'Git, GitHub, GitLab', level: 'expert', usedIn: { projects: [], experience: ['1'] } },
       { name: 'Nginx', level: 'intermediate', usedIn: { projects: [], experience: ['1'] } },
+      { name: 'CI/CD Fundamentals', level: 'intermediate', usedIn: { projects: [], experience: ['1'] } },
       { name: 'HTML5, CSS3, Bootstrap', level: 'expert', usedIn: { projects: [], experience: ['1'] } },
       { name: 'Linux & Windows', level: 'advanced', usedIn: { projects: [], experience: ['1'] } },
     ],
     soft: [
       { name: 'System Design', level: 'advanced', usedIn: { projects: [], experience: ['1'] } },
+      { name: 'Service-Based Architecture', level: 'advanced', usedIn: { projects: [], experience: ['1'] } },
+      { name: 'API Versioning & Backward Compatibility', level: 'advanced', usedIn: { projects: [], experience: ['1'] } },
+      { name: 'Dependency Management (Distributed Systems)', level: 'advanced', usedIn: { projects: [], experience: ['1'] } },
+      { name: 'Schema Evolution Awareness', level: 'advanced', usedIn: { projects: [], experience: ['1'] } },
       { name: 'Data Pipeline Design', level: 'expert', usedIn: { projects: [], experience: ['1'] } },
       { name: 'Code Review', level: 'advanced', usedIn: { projects: [], experience: ['1'] } },
       { name: 'Technical Documentation', level: 'advanced', usedIn: { projects: [], experience: ['1'] } },
@@ -241,14 +257,22 @@ export const data = {
       year: 2023,
       highlights: [
         'AI destekli hukuk teknolojisi platformları için Python ve Node.js ile backend servisler geliştirdim ve sürdürdüm; production ortamlarında büyük ölçekli hukuki veri setlerini işledim.',
+        'Python ve Node.js\'e ek olarak ASP.NET (C#/.NET Core) ile backend servisler geliştirerek farklı teknoloji yığınlarında sürdürülebilir API katmanları oluşturdum.',
+        'NestJS, Express ve .NET Core ile ölçeklenebilir RESTful API\'ler geliştirip günlük binlerce isteği karşılayan servis yapıları kurdum.',
+        'RESTful API\'leri sürümleme stratejileri ve backward compatibility prensipleriyle tasarlayıp bakımını yaptım.',
+        'Gevşek bağlı, modüler ve servis tabanlı sistem tasarımlarıyla ölçeklenebilirlik ve sürdürülebilirliği artırdım.',
         'Scrapy, BeautifulSoup, Selenium ve özel script\'ler kullanarak açık kaynak platformlardan hukuki belgeleri toplayan otomatik web scraping ve veri çıkarma pipeline\'ları tasarladım ve geliştirdim.',
         'Yüksek hacimli veri setlerini işleyip, temizleyip normalleştirerek veri tutarlılığı, doğruluğu ve kullanılabilirliğini sağladım; analitik ve arama sistemleri için hazır hale getirdim.',
         'Elasticsearch tabanlı full-text search, filtreleme ve indeksleme özellikleri geliştirdim; hukuki belgelere hızlı ve ölçeklenebilir erişim sağladım.',
+        'Elasticsearch indeksleme ve sorgu optimizasyonlarıyla belge erişim hızını %40 iyileştirdim.',
         'RESTful API\'ler geliştirdim ve dokümante ettim; backend servisleri React.js tabanlı frontend uygulamalarla entegre ettim.',
-        'PostgreSQL ve MongoDB veritabanlarını yönettim ve optimize ettim; veri modelleme, indeksleme ve performans tuning yaptım.',
+        'PostgreSQL, MSSQL ve MongoDB veritabanlarını yönettim ve optimize ettim; veri modelleme, indeksleme ve performans tuning çalışmalarıyla sorgu performansını %30 iyileştirdim.',
+        'Schema değişikliği ve veri migrasyonu süreçlerinde görev alarak kesinti riskini azaltan geçiş planları uyguladım.',
+        'Yüz binlerce hukuki kaydı işleyen otomatik veri toplama ve ingestion pipeline\'ları geliştirerek manuel veri toplama süresini %70 azalttım.',
         'Docker ile backend servisleri ve veri pipeline\'larını containerize ettim; Linux sistemlerinde deployment ve ortam tutarlılığını sağladım.',
         '1+ yıl süredir production ortamında veri alım pipeline\'larını tasarladım ve sürdürdüm; sürekli veri toplama ve işleme workflow\'larını yönettim.',
         'n8n ile web scraping, API çağrıları, veri dönüştürme ve veritabanı işlemlerini orkestre eden otomasyon workflow\'ları oluşturdum.',
+        'n8n ile kurduğum entegrasyon ve otomasyon akışlarıyla tekrarlayan operasyonel işleri %60 azalttım.',
         'Linux ve Docker tabanlı ortamlarda n8n örneklerini yükledim, yapılandırdım ve sürdürdüm; zamanlanmış ve izlenen veri pipeline\'ları kurduk.',
         'Apache Kafka producer ve consumer servisleri geliştirdim; scraping servisleri, backend sistemler ve downstream consumer\'lar arasında asenkron, event-driven veri işlemeyi sağladım.',
         'Yeni alınan ve işlenen veriler için Kafka mesajları ürettim; mesajları tüketerek veri indeksleme, dönüştürme ve kalıcılık workflow\'larını tetikledim.',
@@ -296,6 +320,26 @@ export const data = {
       demo: 'https://mecellem.com/en',
       image: null,
     },
+    {
+      id: '4',
+      title: 'Neza İnşaat Web Sitesi',
+      description: 'Sıfırdan geliştirilmiş kurumsal web sitesi. Responsive frontend mimarisi, performans odaklı sayfa yapısı ve üretim ortamına uygun yayınlama süreci ile teslim edildi.',
+      longDescription: 'Kurumsal sunum ihtiyaçları için modern bir web arayüzü sıfırdan geliştirildi. Bileşen bazlı yapı, mobil uyumlu tasarım, temel teknik SEO ayarları, iletişim formu akışı ve production deployment süreçleri uçtan uca yönetildi.',
+      tags: ['React', 'Vite', 'JavaScript', 'Responsive Design', 'SEO', 'Deployment'],
+      github: null,
+      demo: 'https://www.nezainsaat.com/',
+      image: null,
+    },
+    {
+      id: '5',
+      title: 'Selin Filinte Web Platformu',
+      description: 'Sıfırdan geliştirilen çok bölümlü web platformu. Dinamik içerik bölümleri, performans optimizasyonu ve bakım kolaylığı için modüler frontend yaklaşımı uygulandı.',
+      longDescription: 'Çok sayfalı içerik yapısını destekleyen bir platform sıfırdan geliştirildi. Yeniden kullanılabilir component mimarisi, mobil öncelikli responsive tasarım, form entegrasyonu, temel SEO optimizasyonları ve production ortamına yayın süreci teknik olarak kurgulandı.',
+      tags: ['React', 'Vite', 'JavaScript', 'Component Architecture', 'Performance', 'SEO'],
+      github: null,
+      demo: 'https://www.selinfilinte.com/',
+      image: null,
+    },
   ],
 
   // ——— İletişim formu (serverless: Formspree / GitHub Actions / custom endpoint) ———
@@ -311,7 +355,7 @@ export const data = {
 export const dataEn = {
   person: {
     name: 'Tarık Buğra Özcan',
-    title: 'Full Stack Developer (Python, Node.js, React)',
+    title: 'Full Stack Developer | Backend Engineer | Scalable Systems & API Design',
     location: 'Istanbul, Turkey',
     valueProposition: 'Full Stack Developer building AI-assisted legal technology platforms, specializing in web scraping and large-scale data processing pipelines; designing Elasticsearch-based search systems and scalable, maintainable systems.',
     email: 'ozcantarkbugra@gmail.com',
@@ -324,7 +368,7 @@ export const dataEn = {
     },
   },
   summary:
-    'Full Stack Developer with 2+ years of experience building AI-assisted legal technology platforms. Strong background in backend development using Python and Node.js, combined with hands-on frontend experience in React.js. Specialized in web scraping, large-scale data processing pipelines, and search systems powered by Elasticsearch. Over 1 year of experience collecting data from open-source platforms, transforming and normalizing raw datasets, and storing structured data in PostgreSQL, MongoDB, and Elasticsearch. Experienced in designing scalable, maintainable systems and contributing to production-grade applications in collaborative team environments.',
+    'Backend-focused Full Stack Developer with 2+ years of experience building scalable, data-intensive systems and production-grade applications. Experienced in designing modular and service-based architectures, RESTful APIs, and high-performance data pipelines for AI-powered legal technology platforms. Hands-on experience in API versioning, backward compatibility, schema evolution awareness, and dependency management in distributed systems. Skilled in event-driven architecture, database design, and system optimization, with a strong focus on performance, maintainability, and reliability.',
 
   coreSkillsShowcase: [
     {
@@ -349,6 +393,14 @@ export const dataEn = {
       detail: {
         what: ['Backend service development with NestJS and Express', 'RESTful API design and documentation', 'JWT and Authentication systems'],
         experience: 'Developed backend services with Node.js (NestJS, Express) at NEW MIND. Designed RESTful APIs and integrated them with React.js-based frontend applications.',
+      },
+    },
+    {
+      name: 'ASP.NET (.NET Core)',
+      tier: 'secondary',
+      detail: {
+        what: ['Backend service development with ASP.NET Core', 'RESTful API design with versioning awareness', 'Building modular and maintainable services using C#'],
+        experience: 'Developed backend services with ASP.NET (C#/.NET Core) at NEW MIND. Built scalable production-grade API layers working alongside Node.js services.',
       },
     },
     {
@@ -507,14 +559,22 @@ export const dataEn = {
       year: 2023,
       highlights: [
         'Developed and maintained backend services using Python and Node.js for AI-assisted legal technology platforms handling large-scale legal datasets in production environments.',
+        'Additionally developed backend services with ASP.NET (C#/.NET Core), building maintainable API layers across multiple backend stacks.',
+        'Designed scalable RESTful APIs with NestJS, Express, and .NET Core, supporting services handling thousands of requests per day.',
+        'Designed and maintained RESTful APIs with API versioning considerations and backward compatibility awareness.',
+        'Built modular and loosely-coupled service-based systems to improve scalability and long-term maintainability.',
         'Designed and built automated web scraping and data extraction pipelines to collect legal documents from open-source platforms using Scrapy, BeautifulSoup, Selenium, and custom scripts.',
         'Processed, cleaned, and normalized high-volume datasets to ensure data consistency, accuracy, and usability for analytics and search systems.',
         'Implemented Elasticsearch-based full-text search, filtering, and indexing features to enable fast and scalable access to legal documents.',
+        'Improved document retrieval speed by 40% through Elasticsearch indexing and query optimizations.',
         'Developed and documented RESTful APIs and integrated backend services with React.js-based frontend applications.',
-        'Managed and optimized PostgreSQL and MongoDB databases, including data modeling, indexing, and performance tuning.',
+        'Managed and optimized PostgreSQL, MSSQL, and MongoDB databases, including data modeling, indexing, and performance tuning, improving query performance by 30%.',
+        'Participated in schema change and data migration processes to minimize operational risk and downtime.',
+        'Built high-volume automated scraping and ingestion pipelines processing hundreds of thousands of legal records, reducing manual data collection time by 70%.',
         'Containerized backend services and data pipelines using Docker, supporting deployment and environment consistency across Linux systems.',
         'Designed and maintained data ingestion pipelines for over 1 year in production, handling continuous data collection and processing workflows.',
         'Built automation workflows using n8n to orchestrate web scraping, API calls, data transformation, and database operations.',
+        'Reduced repetitive operational workload by 60% by building n8n automation workflows integrating APIs, scraping systems, and databases.',
         'Installed, configured, and maintained n8n instances in Linux and Docker-based environments, enabling scheduled and monitored data pipelines.',
         'Implemented Apache Kafka producer and consumer services to enable asynchronous, event-driven data processing between scraping services, backend systems, and downstream consumers.',
         'Produced Kafka messages for newly ingested and processed data, and consumed messages to trigger data indexing, transformation, and persistence workflows.',
@@ -559,6 +619,26 @@ export const dataEn = {
       tags: ['Next.js', 'React', 'TypeScript', 'SPA', 'Legal Tech'],
       github: null,
       demo: 'https://mecellem.com/en',
+      image: null,
+    },
+    {
+      id: '4',
+      title: 'Neza Construction Website',
+      description: 'Built a corporate website from scratch with a responsive frontend architecture, performance-focused page structure, and production-ready deployment flow.',
+      longDescription: 'Developed a modern corporate interface from the ground up. Managed component-based UI structure, mobile responsiveness, baseline technical SEO setup, contact-form flow, and end-to-end production deployment.',
+      tags: ['React', 'Vite', 'JavaScript', 'Responsive Design', 'SEO', 'Deployment'],
+      github: null,
+      demo: 'https://www.nezainsaat.com/',
+      image: null,
+    },
+    {
+      id: '5',
+      title: 'Selin Filinte Web Platform',
+      description: 'Developed a multi-section web platform from scratch using a modular frontend approach focused on performance and maintainability.',
+      longDescription: 'Built a content-heavy web platform from the ground up with reusable component architecture, mobile-first responsive layouts, form integration, baseline SEO optimizations, and production deployment setup.',
+      tags: ['React', 'Vite', 'JavaScript', 'Component Architecture', 'Performance', 'SEO'],
+      github: null,
+      demo: 'https://www.selinfilinte.com/',
       image: null,
     },
   ],
